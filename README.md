@@ -17,14 +17,16 @@ filterFunction(key, value) -> [key, value] | null (ignore value)
 You can use this to rewrite streams by ignoring certain elements or transforming values on the fly.
 
 
-filter function that does nothing
+Filter function that does nothing
+
 ```
 function filterNone(key, value) {
 	return [key, value];
 }
 ```
 
-filter some elements 
+Filter some elements 
+
 ```
 function filterJustGood(key, value) {
 	return value.isGood ? [key, value] : null;
