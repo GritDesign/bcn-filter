@@ -1,0 +1,20 @@
+{
+  "author": "Mark Stewart <mark@grit-design.com>",
+  "name": "bcn-filter",
+  "description": "Bacon iterator filtering",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "gitolite@git.grit313.com:repo/Grit/NodeModules/bcn-filter"
+  },
+  "engines": {
+    "node": "~0.6.9"
+  },
+  "main": "lib/bcn-filter.js",
+  "devDependencies": {
+	 "bacon-db-client":"0.0.7"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+   }
+}
