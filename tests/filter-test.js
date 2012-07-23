@@ -19,7 +19,7 @@ root.on("initialized", function() {
 
     var filtered = new BcnFilter(query, filterFunction);
 
-    filtered.on("data", function(index, key, value) {
+    filtered.on("data", function(key, value) {
         console.log("Got data %s, %s", key, value);
     });
 
