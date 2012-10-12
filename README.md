@@ -10,9 +10,11 @@ npm install bcn-filter
 
 ```
 var filter = new BcnFilter(iterator, filterFunction);
+var asyncFilter = new BcnFilter(iterator, asycFilterFunction, {async: true});
 ```
 
 filterFunction(key, value) -> [key, value] | null (ignore value)
+asyncFilterFunction(key, value, cb) -> cb([key, value]) | cb(null) (ignore value) 
 
 You can use this to rewrite streams by ignoring certain elements or transforming values on the fly.
 

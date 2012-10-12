@@ -2,7 +2,7 @@
   "author": "Mark Stewart <mark@grit-design.com>",
   "name": "bcn-filter",
   "description": "Bacon iterator filtering",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "gitolite@git.grit313.com:repo/Grit/NodeModules/bcn-filter"
