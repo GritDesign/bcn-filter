@@ -47,7 +47,7 @@ Resumes iterator
 
 ## Events
 
-### data(index, key, value)
+### data(key, value)
 
 outputs the filtered value
 
