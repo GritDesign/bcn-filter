@@ -41,7 +41,7 @@ function filterJustGood(key, value) {
 
 Pauses iterator
 
-### resumes()
+### resume()
 
 Resumes iterator
 
