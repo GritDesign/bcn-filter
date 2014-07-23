@@ -5,7 +5,7 @@
   "version": "0.0.5",
   "repository": {
     "type": "git",
-    "url": "gitolite@git.grit313.com:repo/Grit/NodeModules/bcn-filter"
+    "url": "https://github.com/GritDesign/bcn-filter.git"
   },
   "engines": {
     "node": "~0.6.9"
